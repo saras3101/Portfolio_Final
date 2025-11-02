@@ -1,9 +1,11 @@
-apiVersion: core.choreo.dev/v1beta1
-kind: ComponentConfig
-spec:
-  inbound:
+schemaVersion: "1.2"
+endpoints:
     - name: Django API
-      port: 8000
+      displayName: REST API
+      service:
+        basePath: /
+        port: 8000
       type: REST
-      networkVisibility: Public
-      context: /
+      networkVisibilities:
+        - Project
+        - Public
