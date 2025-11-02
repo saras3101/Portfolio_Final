@@ -1,0 +1,526 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/index.css' %}"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="first-window" id="main-page">
+      <div class="bg-layers" aria-hidden="true">
+        <div class="rotate-ring"></div>
+        <div class="hero"></div>
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li class="logo-items">
+            <img
+              src="{% static 'images/finlogo (1).png' %}"
+              alt="logo"
+              class="logoimage"
+            />
+            <div class="logo-text">
+              <div class="designby">DESIGN BY</div>
+              <div class="saras">SARAS</div>
+            </div>
+          </li>
+          
+          <li class="mid-links">
+            <ul class="nav-links">
+              <li>ABOUT</li>
+              <li>SKILLS</li>
+              <li>PROJECTS</li>
+            </ul>
+          </li>
+
+          <li>
+            <button class="btn">HIRE ME</button>
+          </li>
+        </ul>
+      </nav>
+      <div class="text-section">
+        <ul class="text-list">
+          <li class="hi">Hi,</li>
+          <li class="name">
+            <div class="im">I'm</div>
+            <div class="saraswati">Saraswati</div>
+          </li>
+          <li class="dev">Developer & Designer</li>
+        </ul>
+      </div>
+      <div class="cv">
+        <button class="contact-me1">
+          Download CV
+          <div class="arrow1">
+            <svg viewBox="0 0 24 24">
+              <path d="M5 12h18M15 5l7 7-7 7" />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <!--about me section -->
+    <section id="aboutme" class="about-section">
+      
+      <div class="intro-section">
+        <ul class="intro-list">
+          <li class="about-heading">ABOUT ME</li>
+          <li class="name">
+            <div class="para">
+              Hi, I’m Saraswati, a developer and a designer who’s all about
+              creating meaningful and visually stunning digital experiences.I
+              combine technical expertise with creative vision to build
+              interfaces that are both beautiful and functional.I consider
+              myself a solution-oriented professional with a keen eye for
+              aesthetics who's constantly exploring new technologies and design
+              trends to enhance my craft.
+            </div>
+          </li>
+          <li class="button-contact">
+            <button class="contact-me">
+              CONTACT ME
+              <div class="arrow">
+                <svg viewBox="0 0 24 24">
+                  <path d="M5 12h18M15 5l7 7-7 7" />
+                </svg>
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="side-section">
+        <div class="wavy-bg">
+          <div class="me-image"></div>
+        </div>          
+      </div>
+    </section>
+
+    <!-- skills-section -->
+
+    <section class="skills-section" id="skill-id">
+      <!-- Animated marquee with repeating SKILLS image at top -->
+      <div class="skills-marquee">
+        <div class="skills-marquee-content">
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+          <div class="skills-marquee-item">
+            <img src="{% static 'images/skills.png' %}" alt="" />
+          </div>
+
+        </div>
+      </div>
+
+      <div class="skills-ring"></div>
+
+      <div class="skills-grid">
+        <div class="skill-item">
+          <img class="html" src="{% static 'images/html5.png' %}" alt="HTML5" />
+        </div>
+        <div class="skill-item">
+          <img class="css" src="{% static 'images/css3.png' %}" alt="CSS3" />
+        </div>
+        <div class="skill-item">
+          <img class="js" src="{% static 'images/js.png' %}" alt="JavaScript" />
+        </div>
+        <div class="skill-item">
+          <img class="sql" src="{% static 'images/sql.png' %}" alt="SQL" />
+        </div>
+        <div class="skill-item">
+          <img
+            class="react"
+            src="{% static 'images/react.png' %}"
+            alt="React"
+          />
+        </div>
+
+        <div class="skill-item">
+          <img class="cpp" src="{% static 'images/cpp.png' %}" alt="C++" />
+        </div>
+        <div class="skill-item">
+          <img class="java" src="{% static 'images/java.png' %}" alt="Java" />
+        </div>
+        <div class="skill-item">
+          <img
+            class="python"
+            src="{% static 'images/python.png' %}"
+            alt="Python"
+          />
+        </div>
+
+        <div class="skill-item">
+          <img class="ps" src="{% static 'images/ps.png' %}" alt="Photoshop" />
+        </div>
+        <div class="skill-item">
+          <img
+            class="ai"
+            src="{% static 'images/illustrator.png' %}"
+            alt="Illustrator"
+          />
+        </div>
+        <div class="skill-item">
+          <img
+            class="figma"
+            src="{% static 'images/figma.png' %}"
+            alt="Figma"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- project section -->
+    <section class="projects-section" id="projects">
+      <div class="project-ring"></div>
+      <div class="projects-heading">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <a
+            href="https://github.com/saras3101/ECO-DRISHTI-V2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-image-box">
+              <div class="project-placeholder">📱</div>
+            </div>
+            <div class="project-info">
+              <div class="project-label">FULL-STACK</div>
+              <h3 class="project-title">ECO-DRISHTI</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <a
+            href="https://ciphertales.choreoapps.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-image-box">
+              <div class="project-placeholder">💻</div>
+            </div>
+            <div class="project-info">
+              <div class="project-label">FULL-STACK</div>
+              <h3 class="project-title">CIPHER TALES</h3>
+            </div>
+          </a>
+        </div>
+        <div class="project-card">
+          <a
+            href="https://github.com/saras3101/Memor_v2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-image-box">
+              <div class="project-placeholder">🌄</div>
+            </div>
+            <div class="project-info">
+              <div class="project-label">FULL-STACK</div>
+              <h3 class="project-title">MEMORI</h3>
+            </div>
+          </a>
+        </div>
+        <div class="project-card">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="project-image-box">
+              <div class="project-placeholder">🎀</div>
+            </div>
+            <div class="project-info">
+              <div class="project-label">FULL-STACK</div>
+              <h3 class="project-title">YOUR EMS</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-me section -->
+    <section class="contact-section">
+      
+
+      <div class="contact-container">
+        <h1 class="contact-title">CONTACT ME</h1>
+        <div class="contact-ring"></div>
+
+        <div class="contact-form-container">
+          <div class="form-header">
+            <h2 class="form-title">Your Detail</h2>
+          </div>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your full name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your e-mail"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Message Subject"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your message here..."
+              ></textarea>
+            </div>
+
+            <button class="contact-me2">
+              SUBMIT
+              <div class="arrow2">
+                <svg viewBox="0 0 24 24">
+                  <path d="M5 12h18M15 5l7 7-7 7" />
+                </svg>
+              </div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".nav-links li");
+        console.log("JavaScript loaded successfully");
+
+        // Navigation functionality
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function () {
+            const linkText = this.textContent.trim();
+            let targetSection;
+
+            switch (linkText) {
+              case "ABOUT":
+                targetSection = document.getElementById("aboutme");
+                break;
+              case "SKILLS":
+                targetSection = document.getElementById("skill-id");
+                break;
+              case "PROJECTS":
+                targetSection = document.getElementById("projects");
+                break;
+            }
+
+            if (targetSection) {
+              targetSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          });
+        });
+
+        // Hire me button - scroll to contact section
+        const hireButton = document.querySelector(".btn");
+        if (hireButton) {
+          hireButton.addEventListener("click", function () {
+            console.log("Hire me button clicked");
+            const contactSection = document.querySelector(".contact-section");
+            if (contactSection) {
+              contactSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          });
+        }
+
+        // Download CV button
+        const downloadCVButton = document.querySelector(".contact-me1");
+        if (downloadCVButton) {
+          downloadCVButton.addEventListener("click", function () {
+            console.log("Download CV clicked");
+            window.open(
+              "https://drive.google.com/file/d/1ndkZ7dLIWkEAk-dHRozBePDWVDvMmPwc/view?usp=sharing",
+              "_blank"
+            );
+          });
+        }
+
+        // Contact me buttons
+        const contactButtons = document.querySelectorAll(".contact-me");
+        contactButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            console.log("Contact me button clicked");
+            const contactSection = document.querySelector(".contact-section");
+            if (contactSection) {
+              contactSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          });
+        });
+
+        // Project cards - add dummy GitHub links
+        const projectCards = document.querySelectorAll(".project-card");
+        const githubLinks = [
+          "https://github.com/saras3101/ECO-DRISHTI-V2",
+          "https://ciphertales.choreoapps.dev/",
+          "https://github.com/saras3101/Memor_v2",
+          ""
+        ];
+
+        projectCards.forEach((card, index) => {
+          card.style.cursor = "pointer";
+          card.addEventListener("click", function () {
+            console.log(`Project card ${index + 1} clicked`);
+            window.open(githubLinks[index], "_blank");
+          });
+        });
+
+        // Contact form submission
+        const contactForm = document.querySelector(
+          ".contact-form-container form"
+        );
+        if (contactForm) {
+          contactForm.addEventListener("submit", async function (e) {
+            e.preventDefault();
+            console.log("Contact form submitted");
+
+            const formData = {
+              name: document.getElementById("name").value,
+              email: document.getElementById("email").value,
+              subject: document.getElementById("subject").value,
+              message: document.getElementById("message").value,
+            };
+
+            const submitButton = document.querySelector(".contact-me2");
+            const originalText = submitButton.innerHTML;
+
+            // Show loading state
+            submitButton.innerHTML = "SENDING...";
+            submitButton.disabled = true;
+
+            try {
+              const response = await fetch("/submit-contact/", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+              });
+
+              const result = await response.json();
+
+              if (result.success) {
+                alert(
+                  "Thank you for your message! I will get back to you soon."
+                );
+                contactForm.reset();
+              } else {
+                alert(
+                  "There was an error submitting your message. Please try again."
+                );
+              }
+            } catch (error) {
+              console.error("Error:", error);
+              alert(
+                "There was an error submitting your message. Please try again."
+              );
+            } finally {
+              // Reset button state
+              submitButton.innerHTML = originalText;
+              submitButton.disabled = false;
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
