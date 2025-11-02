@@ -475,8 +475,8 @@ section {
   background-size: cover;
   background-position: center;
   border-radius: 27% / 21%;
-  width: clamp(180px, 44vw, 340px);
-  height: clamp(210px, 54vw, 390px);
+  width: clamp(180px, 64vw, 420px);
+  height: clamp(210px, 68vw, 440px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.13);
   position: relative;  /* <--- remove 'absolute', allow flex centering */
   z-index: 2;
