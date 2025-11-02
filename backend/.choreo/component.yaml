@@ -1,7 +1,7 @@
 schemaVersion: 1.0
 
 endpoints:
-  - name: "Django API"
+  - name: "django-api"
     port: 8000
     type: REST
     networkVisibilities: 
