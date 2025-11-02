@@ -1,6 +1,3 @@
-"""
-Django settings for portfolio_backend project.
-"""
 
 from pathlib import Path
 import os
@@ -37,7 +34,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'frontend/templates',  # Now points to my-portfolio/frontend/templates
+            BASE_DIR / 'frontend/templates',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -84,5 +81,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'frontend/static'),
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # For collectstatic
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
