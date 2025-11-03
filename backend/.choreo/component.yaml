@@ -1,17 +1,11 @@
-schemaVersion: 1.0
+schemaVersion: 1.2
 
 endpoints:
   - name: django-api
+    displayName: django-api
     service:
       basePath: /
       port: 8000
     type: REST
     networkVisibilities:
       - Public
-    context: /
-
-buildpack:
-  type: python
-  version: "3.11.x"
-
-projectPath: /backend
