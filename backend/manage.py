@@ -6,6 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
+    # Update this path if your settings are in a different location
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'portfolio_backend.settings')
     try:
         from django.core.management import execute_from_command_line
